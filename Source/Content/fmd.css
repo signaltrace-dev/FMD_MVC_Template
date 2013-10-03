@@ -53,9 +53,25 @@ h2.page-title {
 	background: url(Images/black-bg.png) repeat-x top;
 }
 #identity-uga h1 {
-	background: url(Images/UGA-logo.png) no-repeat top left;
 	margin: 0 auto;
 	text-indent: -999em;
+}
+
+#identity-uga .logo {
+    max-width:340px;
+}
+
+#identity-uga.logo img {
+    width:100%;
+}
+
+#identity-fmd {
+    min-height:80px;
+    max-width:612px;
+}
+
+#identity-fmd img {
+    width:100%;
 }
 
 
