@@ -1,0 +1,17 @@
+C:\Users\Jeff\Documents\Visual Studio 2012\Projects\FMD_MVC_Application_Template\FMD_MVC_Application_VSIX\bin\Debug\ProjectTemplates\FMD_MVC_Application_Template.zip
+C:\Users\Jeff\Documents\Visual Studio 2012\Projects\FMD_MVC_Application_Template\FMD_MVC_Application_VSIX\bin\Debug\FMD_MVC_Application_VSIX.vsix
+C:\Users\Jeff\Documents\Visual Studio 2012\Projects\FMD_MVC_Application_Template\FMD_MVC_Application_VSIX\bin\Debug\extension.vsixmanifest
+C:\Users\Jeff\Documents\Visual Studio 2012\Projects\FMD_MVC_Application_Template\FMD_MVC_Application_VSIX\obj\Debug\FMD_MVC_Application_VSIX.dll
+C:\Users\Jeff\Documents\Visual Studio 2012\Projects\FMD_MVC_Application_Template\FMD_MVC_Application_VSIX\obj\Debug\FMD_MVC_Application_VSIX.pdb
+C:\Users\Jeff\Documents\Visual Studio 2012\Projects\FMD_MVC_Application_Template\FMD_MVC_Application_VSIX\obj\Debug\extension.vsixmanifest
+C:\Users\Jeff\Documents\Visual Studio 2012\Projects\FMD_MVC_Application_Template\FMD_MVC_Application_VSIX\obj\Debug\FMD_MVC_Application_VSIX.csprojResolveAssemblyReference.cache
+C:\Users\Jeff\Documents\Visual Studio 2012\Projects\FMD_MVC_Application_Template\build\ProjectTemplates\FMD_MVC_Application_Template.zip
+C:\Users\Jeff\Documents\Visual Studio 2012\Projects\FMD_MVC_Application_Template\build\FMD_MVC_Application_VSIX.vsix
+C:\Users\Jeff\Documents\Visual Studio 2012\Projects\FMD_MVC_Application_Template\build\extension.vsixmanifest
+C:\Users\Jeff\Documents\Visual Studio 2012\Projects\FMD_MVC_Template\build\ProjectTemplates\FMD_MVC_Application_Template.zip
+C:\Users\Jeff\Documents\Visual Studio 2012\Projects\FMD_MVC_Template\build\FMD_MVC_Application_VSIX.vsix
+C:\Users\Jeff\Documents\Visual Studio 2012\Projects\FMD_MVC_Template\build\extension.vsixmanifest
+C:\Users\Jeff\Documents\Visual Studio 2012\Projects\FMD_MVC_Template\FMD_MVC_Application_VSIX\obj\Debug\FMD_MVC_Application_VSIX.csprojResolveAssemblyReference.cache
+C:\Users\Jeff\Documents\Visual Studio 2012\Projects\FMD_MVC_Template\FMD_MVC_Application_VSIX\obj\Debug\FMD_MVC_Application_VSIX.dll
+C:\Users\Jeff\Documents\Visual Studio 2012\Projects\FMD_MVC_Template\FMD_MVC_Application_VSIX\obj\Debug\FMD_MVC_Application_VSIX.pdb
+C:\Users\Jeff\Documents\Visual Studio 2012\Projects\FMD_MVC_Template\FMD_MVC_Application_VSIX\obj\Debug\extension.vsixmanifest

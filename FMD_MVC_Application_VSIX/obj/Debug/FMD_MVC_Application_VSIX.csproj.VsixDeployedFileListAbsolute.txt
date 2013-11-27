@@ -1,0 +1,4 @@
+C:\Users\Jeff\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\FMD IT\FMD_MVC_Application_VSIX\1.0\\extension.vsixmanifest
+C:\Users\Jeff\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\FMD IT\FMD_MVC_Application_VSIX\1.0\ProjectTemplates\\FMD_MVC_Application_Template.zip
+C:\Users\Jeff\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\FMD IT\FMD MVC Application\1.0\\extension.vsixmanifest
+C:\Users\Jeff\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\FMD IT\FMD MVC Application\1.0\ProjectTemplates\\FMD_MVC_Application_Template.zip

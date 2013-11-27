@@ -1,0 +1,65 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>FMD MVC Application</Name>
+    <Description>FMD MVC application template, based on Boostrap 3.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>FMD MVC Application</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+    <PreviewImage>vstg0001.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="FMD_MVC_Application.csproj" File="FMD_MVC_Application.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="__PreviewImage.png">__PreviewImage.png</ProjectItem>
+      <Folder Name="App_Data" TargetFolderName="App_Data" />
+      <Folder Name="App_Start" TargetFolderName="App_Start">
+        <ProjectItem ReplaceParameters="true" TargetFileName="FilterConfig.cs">FilterConfig.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="RouteConfig.cs">RouteConfig.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WebApiConfig.cs">WebApiConfig.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Controllers" TargetFolderName="Controllers" />
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax">Global.asax</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax.cs">Global.asax.cs</ProjectItem>
+      <Folder Name="Models" TargetFolderName="Models" />
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Views" TargetFolderName="Views">
+        <ProjectItem ReplaceParameters="true" TargetFileName="_ViewStart.cshtml">_ViewStart.cshtml</ProjectItem>
+        <Folder Name="Shared" TargetFolderName="Shared">
+          <ProjectItem ReplaceParameters="true" TargetFileName="_Layout.cshtml">_Layout.cshtml</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Release.config">Web.Release.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+    <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
+  </WizardExtension>
+  <WizardData>
+    <packages repository="template">
+      <package id="Microsoft.AspNet.Mvc" version="4.0.20710.0" targetFramework="net45" />
+      <package id="Microsoft.AspNet.Mvc.FixedDisplayModes" version="1.0.0" targetFramework="net45" />
+      <package id="Microsoft.AspNet.Razor" version="2.0.20715.0" targetFramework="net45" />
+      <package id="Microsoft.AspNet.WebApi" version="4.0.20710.0" targetFramework="net45" />
+      <package id="Microsoft.AspNet.WebApi.Client" version="4.0.20710.0" targetFramework="net45" />
+      <package id="Microsoft.AspNet.WebApi.Core" version="4.0.20710.0" targetFramework="net45" />
+      <package id="Microsoft.AspNet.WebApi.WebHost" version="4.0.20710.0" targetFramework="net45" />
+      <package id="Microsoft.AspNet.WebPages" version="2.0.20710.0" targetFramework="net45" />
+      <package id="Microsoft.Net.Http" version="2.0.20710.0" targetFramework="net45" />
+      <package id="Microsoft.Web.Infrastructure" version="1.0.0.0" targetFramework="net45" />
+      <package id="Newtonsoft.Json" version="5.0.8" targetFramework="net45" />
+    </packages>
+  </WizardData>
+</VSTemplate>

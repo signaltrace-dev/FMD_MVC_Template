@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+    <script src="//fmd-static.uga.edu/js/bootstrap.min.js" ></script>
+    <link href='//fmd-static.uga.edu/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href='//fmd-static.uga.edu/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+    <link href='//fmd-static.uga.edu/css/fmd.css' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Quattrocento|PT+Sans:400,700|PT+Sans+Narrow:400,700&v2' rel='stylesheet' type='text/css'>   
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div id="identity-uga">
+        <div class="container">
+            <div class="logo">
+                <a href="http://uga.edu" title="The University of Georgia" target="blank"><img src="//fmd-static.uga.edu/images/uga_logo.png" /><h1>The University of Georgia</h1></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <div id="identity-fmd">
+                <a href="http://www.fmd.uga.edu/" title="Facilities Management Division"><img src="//fmd-static.uga.edu/images/fmdlogo.png" alt="Facilities Management Division" /></a>
+            </div>
+            <h2 class='site-title'>@ViewBag.Title</h2>
+        </header>
+    </div>
+
+    <div class="container">
+        <nav class="navbar navbar-default" role="navigation" id="nav-main">
+            <ul class="navbar navbar-nav"></ul>
+        </nav>
+    </div>
+
+    <div class="container" id="container-main">
+        <div class="row">
+            <div id="content-main" class="col-lg-12">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    <footer class="noprint">
+        <div id="footer-site" class="container">
+            <div class="row">
+                <div class="col-lg-4 footer-logo"><a href="http://www.fmd.uga.edu"><img src="//fmd-static.uga.edu/images/small_fmdlogo.png" alt="Facilities Management Division" /></a></div>
+                <div class="col-lg-8 footer-address"><a href="http://www.fmd.uga.edu">University of Georgia<br/>Facilities Management Division</a><br/>1180 E Broad Street<br/>0201 Chicopee Complex<br/>Athens, Georgia 30602</div>
+            </div>
+        </div>
+
+        <div id="footer-uga">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <h3>About UGA</h3>
+                        <ul>
+                            <li><a href="http://visit.uga.edu/" target="_blank">Visit UGA</a></li>
+                            <li><a href="http://www.architects.uga.edu/maps/current " target="_blank">Campus Maps</a></li>
+                            <li><a href="http://calendar.uga.edu" target="_blank">Master Calendar</a></li>
+                            <li><a href="http://www.georgiadogs.com/" target="_blank">Athletic Association</a></li>
+                            <li><a href="http://www.hr.uga.edu/recruitment/employment/Employment.html" target="_blank">Employment</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <h3>Academics</h3>
+                        <ul>
+                            <li><a href="https://my.uga.edu" target="_blank">MyUGA</a></li>
+                            <li><a href="https://oasisweb.uga.edu/" target="_blank">Oasis</a></li>
+                            <li><a href="https://www.elc.uga.edu/webct/entryPageIns.dowebct" target="_blank">ELC</a></li>
+                            <li><a href="http://www.bulletin.uga.edu/" target="_blank">UGA Bulletin</a></li>
+                            <li><a href="http://www.reg.uga.edu/calendars" target="_blank">Academic Calendars</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <h3>Student Life</h3>
+                        <ul>
+                            <li><a href="http://www.ugamail.uga.edu/" target="_blank">UGA Mail</a></li>
+                            <li><a href="http://uga.edu/foodservice/" target="_blank">Food Services</a></li>
+                            <li><a href="http://uga.edu/campuslife/" target="_blank">Campus Life</a></li>
+                            <li><a href="http://www.recsports.uga.edu/" target="_blank">Recreational Sports</a></li>
+                            <li><a href="https://studentacct.uga.edu/PCSA/index.jsp" target="_blank">Student Accounts</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <h3>Helpful Links</h3>
+                        <ul>
+                            <li><a href="http://www.grad.uga.edu/" target="_blank">Graduate School</a></li>
+                            <li><a href="http://uga.edu/osfa/index.html" target="_blank">Financial Aid</a></li>
+                            <li><a href="http://uga.edu/oie/" target="_blank">International Education</a></li>
+                            <li><a href="http://uga.edu/honors/" target="_blank">Honors Program</a></li>
+                            <li><a href="http://www.libs.uga.edu/" target="_blank">Library</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="attribution"><a href="http://uga.edu" rel="nofollow" target="_blank"> &copy; The University of Georgia</a></div>
+    </footer>
+</body>
+</html>
