@@ -1,0 +1,19 @@
+﻿@model $safeprojectname$.Models.LoginUser
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.ValidationSummary(true)
+@using (Html.BeginForm("Login", "Auth", FormMethod.Post, new {@class="form-inline well col-lg-6", id="pnl-login", role="form" }))
+{ 
+    <div class="form-group">
+        @Html.LabelFor(model => model.UserName, new{@class="sr-only"})
+        @Html.TextBoxFor(model => model.UserName, new { @class="form-control", id="txt-username", placeholder=Html.DisplayNameFor(model=>model.UserName)})
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Password, new{@class="sr-only"})
+        @Html.PasswordFor(model => model.Password, new { @class="form-control", placeholder=Html.DisplayNameFor(model=>model.Password)})
+    </div>
+    <button type="submit" class="btn btn-success">Login</button>
+}

@@ -23,18 +23,33 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="RouteConfig.cs">RouteConfig.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="WebApiConfig.cs">WebApiConfig.cs</ProjectItem>
       </Folder>
-      <Folder Name="Controllers" TargetFolderName="Controllers" />
+      <Folder Name="Controllers" TargetFolderName="Controllers">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AuthController.cs">AuthController.cs</ProjectItem>
+      </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax">Global.asax</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax.cs">Global.asax.cs</ProjectItem>
-      <Folder Name="Models" TargetFolderName="Models" />
+      <Folder Name="Models" TargetFolderName="Models">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AppViewModel.cs">AppViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="LoginUser.cs">LoginUser.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Person.cs">Person.cs</ProjectItem>
+        <Folder Name="Data" TargetFolderName="Data">
+          <ProjectItem ReplaceParameters="true" TargetFileName="BaseData.cs">BaseData.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="PersonData.cs">PersonData.cs</ProjectItem>
+        </Folder>
+      </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
       </Folder>
       <Folder Name="Views" TargetFolderName="Views">
         <ProjectItem ReplaceParameters="true" TargetFileName="_ViewStart.cshtml">_ViewStart.cshtml</ProjectItem>
+        <Folder Name="Auth" TargetFolderName="Auth">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Login.cshtml">Login.cshtml</ProjectItem>
+        </Folder>
         <Folder Name="Shared" TargetFolderName="Shared">
           <ProjectItem ReplaceParameters="true" TargetFileName="_Layout.cshtml">_Layout.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="_Navbar.cshtml">_Navbar.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="_UserInfo.cshtml">_UserInfo.cshtml</ProjectItem>
         </Folder>
         <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
       </Folder>

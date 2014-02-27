@@ -1,0 +1,25 @@
+﻿@model $safeprojectname$.Models.AppViewModel
+
+@{string loginDisplay = "";}
+@{string logoutDisplay = "";}
+
+@if (HttpContext.Current.User.Identity.IsAuthenticated)
+{
+    loginDisplay = "style='display:none;'";
+}
+else { logoutDisplay = "style='display:none;'"; }
+
+@if(Model != null){
+    if (Session["User"] != null) { 
+        Model.CurrentUser = ($safeprojectname$.Models.LoginUser)Session["User"]; 
+    
+        using (Html.BeginForm("LogOff", "Auth", FormMethod.Post)){
+        <div class='btn-group' id="pnl-logout" @Html.Raw(logoutDisplay)>
+            <button type="button" class='btn btn-danger dropdown-toggle' data-toggle="dropdown"><span id="pnl-fullname">@Model.CurrentUser.FullName</span> <span class='caret'></span></button>
+            <ul class='dropdown-menu' role="menu">
+                <li>@Html.ActionLink("Logout", "LogOut", "Auth")</li>
+            </ul>
+        </div>
+        }
+    }
+}
